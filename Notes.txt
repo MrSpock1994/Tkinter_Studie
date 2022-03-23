@@ -28,7 +28,7 @@ myLabel2.grid(row=1, column=1)
 
 root.mainloop()
 
---------------------------------------------------------------
+-------------------------------------------------------------------------------
 from tkinter import *
 
 root = Tk()
@@ -43,3 +43,7 @@ myButton = Button(root, text="Click Me!", command=myclick, fg="blue", bg="red")
 myButton.pack()
 
 root.mainloop()
+
+
+-------------------------------------------------------------------------------
+
