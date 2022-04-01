@@ -61,6 +61,7 @@ def delete_record():
 
 
 def update_record():
+    global top
     top = Toplevel()
     top.title("Updating")
     conn = sqlite3.connect("address_book.db")
@@ -121,6 +122,7 @@ def adding():
                      l6top_zipcode.get(), edit_record.get()])
     conn.commit()
     conn.close()
+    top.destroy()
 
 
 L1 = Label(root, text="First Name ->")
